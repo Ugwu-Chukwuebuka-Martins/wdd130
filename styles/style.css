@@ -1,6 +1,17 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+:root{
+    --heading-bg-color: navy;
+    --heading-text-color: rgb(225, 250, 6);
+    --heading-font: helvetica, sans-serif;
+}
 nav{
-background-color: darkblue;
+background-color: var(--heading-bg-color);
 padding: 10px;
+border: 3px solid black;
 }
 nav a{
 color: white;
@@ -8,7 +19,8 @@ display: block;
 padding: 20px;
 }
 h1{
-color: darkblue;
+color: var(--heading-bg-color);
+margin: 0 0 1rem 0;
 }
 img{
 width: 150px;
@@ -18,30 +30,52 @@ border: 1px solid black;
 box-shadow: 0 0 30px grey;
 }
 main{
-max-width: 840px;
+max-width: 1150px;
+}
+main p{
+margin-left: .5rem;
 }
 aside{
-width: 20rem;
-margin: 1rem;
-border: 1px solid rgb(0 0 0 0.1);
-padding: 1rem;
-background-color:#eee;
-color: #333;
-text-align: center;
+width: 400px;
+background-color:var(--heading-bg-color);
+color: white;
 }
 aside img{
 width: 200px;
 height: auto;
+float: right;
+margin-left: 1rem;
 }
 main img{
-width: 150px;
+width: 200px;
 height: auto;
+float: right;
+margin-left: 1rem;
 }
 p{
 padding: 0;
+margin: .5rem;
+}
+aside h2{
+position: absolute;
+top: 780px;
+left: 260px;
+color: black;
+font-family: var(--heading-font);
 }
 footer{
-margin-top: 10px;
-border-top: 1px solid #000;
 text-align: center;
+background-color: green;
+color: white;
+font-style: italic;
+border-top: 3px solid black;
+}
+ul{
+background-color: green;
+}
+/* Class Selectors */
+.box{
+margin: 1rem;
+border: 3px solid black;
+padding: 1rem;
 }
