@@ -67,8 +67,8 @@ footer{
 text-align: center;
 background-color: green;
 color: white;
-font-style: italic;
-border-top: 3px solid black;
+border: 3px solid black;
+bottom: 20rem;
 }
 ul{
 background-color: green;
