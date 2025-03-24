@@ -29,6 +29,7 @@ margin-right: 5%;
 header nav a{
 text-transform: uppercase;
 font-weight: bold;
+text-shadow: 2px 2px 5px var(--accent2-color);
 }
 header img{
 margin-left: 1rem;
@@ -71,6 +72,8 @@ section img{
 width: 50%;
 border-radius: 10%;
 margin-bottom: 1rem;
+box-shadow: 0 0 30px var(--primary-color);
+border: 5px solid var(--secondary-color);
 }
 footer{
 background-color: var(--accent1-color);
