@@ -1,0 +1,83 @@
+:root{
+--primary-color: #FF99C8;
+--secondary-color: #FCF6BD;
+--accent1-color: #D0F4DE;
+--accent2-color: #A9DEF9;
+}
+h1, h2, a{
+font-family: Tektur;
+}
+p{
+font-style: italic;
+}
+/* The following css rule removes underline from hyperlink*/
+a{
+text-decoration: none;
+color: white;
+}
+header{
+background-color: var(--primary-color);
+margin-bottom: -1.29rem;
+margin-top: -1rem;
+}
+header nav{
+display: inline;
+float: right;
+padding: 3%;
+margin-right: 5%;
+}
+header img{
+margin-left: 1rem;
+}
+.hero{
+background-image: url("../images/wwrbanner.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+height: 100%;
+}
+.hero h1{
+text-align: center;
+color:white;
+padding: 30px;
+}
+article{
+width: 70%;
+height: 50%;
+margin-left: 15%;
+margin-top: 6%;
+background-color: var(--secondary-color);
+border-radius: 3%;
+}
+article img{
+float: right;
+width: 300px;
+height: 200px;
+border-radius: 50%  0 50% 50%;
+padding: 4%;
+}
+article p{
+margin-left: 2%;
+text-align: center;
+padding: 8%;
+}
+section{
+margin-left: 10%;
+margin-right: 10%;
+}
+section img{
+width: 30%;
+display: block;
+border-radius: 10%;
+margin-bottom: 1rem;
+}
+footer{
+background-color: var(--accent1-color);
+width: 100%;
+height: 20%;
+text-align: center;
+font-weight: bold;
+font-family: Tektur;
+}
+footer img{
+width: 2%;
+}
