@@ -26,6 +26,10 @@ float: right;
 padding: 3%;
 margin-right: 5%;
 }
+header nav a{
+text-transform: uppercase;
+font-weight: bold;
+}
 header img{
 margin-left: 1rem;
 }
@@ -65,7 +69,7 @@ margin-left: 10%;
 margin-right: 10%;
 }
 section img{
-width: 30%;
+width: 50%;
 display: block;
 border-radius: 10%;
 margin-bottom: 1rem;
