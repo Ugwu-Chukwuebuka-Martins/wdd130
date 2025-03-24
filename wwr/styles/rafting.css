@@ -18,13 +18,14 @@ color: white;
 header{
 background-color: var(--primary-color);
 margin-bottom: -1.29rem;
-margin-top: -1rem;
+margin-top: -0.8rem;
 }
 header nav{
 display: inline;
 float: right;
 padding: 3%;
 margin-right: 5%;
+height: 200px;
 }
 header nav a{
 text-transform: uppercase;
