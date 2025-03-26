@@ -72,7 +72,10 @@ padding: 4%;
 article p{
 margin-left: 2%;
 text-align: center;
-padding: 8%;
+padding: 3%;
+}
+article h2{
+margin: 3rem 0 0 6rem;
 }
 section{
 margin-left: 10%;
