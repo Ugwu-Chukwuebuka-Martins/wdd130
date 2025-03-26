@@ -40,6 +40,7 @@ background-image: url("../images/wwrbanner.jpg");
 background-repeat: no-repeat;
 background-size: cover;
 height: 650px;
+margin-top: -1.6rem;
 }
 .hero h1{
 text-align: center;
