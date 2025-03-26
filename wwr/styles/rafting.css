@@ -42,12 +42,7 @@ text-transform: uppercase;
 border: 2px solid white;
 border-radius: 10%;
 background-color: var(--accent2-color);
-}
-.navigation a:hover {
-color: red;
-border: 2px solid red;
-font-weight: bolder;
-}
+}s
 .hero{
 background-image: url("../images/wwrbanner.jpg");
 background-repeat: no-repeat;
