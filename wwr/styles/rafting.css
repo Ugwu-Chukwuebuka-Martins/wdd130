@@ -23,17 +23,17 @@ border-bottom: 3px solid white;
 align-items: center;
 max-width: 100%;
 }
-.navigation{
+ul{
 display: flex;
 flex-wrap: wrap;
 list-style: none;
 padding: 0;
 }
-.navigation li {
+ul liss{
 text-align: center;
 margin-left: 2rem;
 }
-.navigation a {
+ul a{
 display: block;
 color: white;
 padding: 20px;
@@ -41,8 +41,7 @@ font-weight: bolder;
 text-transform: uppercase;
 border: 2px solid white;
 border-radius: 10%;
-background-color: var(--accent2-color);
-}s
+}
 .hero{
 background-image: url("../images/wwrbanner.jpg");
 background-repeat: no-repeat;
@@ -55,13 +54,12 @@ color:white;
 padding: 30px;
 }
 article{
-	margin: 1em auto;
-	border: 1px solid rgb(0 0 0 / 0.1);
-	padding: 1em;
-	background-color: var(--secondary-color);
-	width: min(800px, 100%);
-	font-size: 1.2rem;
-    border-radius: 3%;
+margin: 7% 10% 0 10%;
+padding: 1rem;
+background-color: var(--secondary-color);
+width: 80%;
+font-size: 1.2rem;
+border-radius: 3%;
 }
 
 article img{
