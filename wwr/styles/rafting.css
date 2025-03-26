@@ -10,6 +10,9 @@ background-color: var(--primary-color);
 h1, h2, a{
 font-family: Tektur;
 }
+a{
+text-decoration: none;
+}
 p{
 font-style: italic;
 }
@@ -31,7 +34,6 @@ text-align: center;
 margin-left: 2rem;
 }
 .navigation a {
-text-decoration: none;
 display: block;
 color: white;
 padding: 20px;
@@ -108,16 +110,28 @@ figcaption{
 margin-left: 3rem;
 color: blue;
 }
+/*##############################*/
 footer{
+display: flex;
+flex-direction: column;
 background-color: var(--accent1-color);
-width: 100%;
-height: 10%;
-text-align: center;
+height: 50px;
 font-weight: bold;
 font-family: Tektur;
 border-top: 3px solid black;
 border-bottom: 3px solid black;
 }
+footer p{
+width: 100%;
+text-align: center;
+margin-bottom: -0.5rem;
+}
 footer img{
 width: 2%;
+float: right;
+margin-top: -1rem;
+margin-right: .5rem;
+}
+footer nav{
+margin-right: 2rem;
 }
