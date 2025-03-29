@@ -50,6 +50,7 @@ background: url(../images/wwrbanner.jpg) no-repeat;
 background-size: cover;
 height: 650px;
 margin: 5px;
+border: 3px solid black;
 }
 h1{
 text-align: center;
