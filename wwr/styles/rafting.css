@@ -21,7 +21,8 @@ header{
 display: flex;
 justify-content: space-between;
 align-items: center;
-background-image: linear-gradient(to right,white,white,var(--primary-color),var(--primary-color),var(--primary-color))
+background-image: linear-gradient(to right,white,white,var(--primary-color),var(--primary-color),var(--primary-color));
+max-width: 100%;
 }
 ul{
 display: flex;
@@ -51,6 +52,7 @@ background-size: cover;
 height: 650px;
 margin: 5px;
 border: 3px solid black;
+max-width: 100%;
 }
 h1{
 text-align: center;
@@ -61,9 +63,10 @@ text-shadow: 5px 5px 5px white;
 article{
 background-color: var(--accent1-color);
 height: 300px;
-margin: 15% 5% 0 5%;
+width: 80%;
+margin: 15% 9% 0 9%;
 border-radius: 20px;
-padding: 15px;
+padding: 10px;
 border: 2px solid black;
 }
 article img{
@@ -116,6 +119,7 @@ padding: 10px;
 background-color: var(--primary-color);
 margin-top: 1rem;
 box-shadow: 0 0 20px 0 var(--accent2-color);
+max-width: 100%;
 }
 footer p{
 font-family: Tektur;
