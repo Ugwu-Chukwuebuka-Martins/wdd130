@@ -1,133 +1,136 @@
 :root{
---primary-color: #FF99C8;
---secondary-color: #FCF6BD;
---accent1-color: #D0F4DE;
---accent2-color: #A9DEF9;
+--primary-color: #0081A7;
+--secondary-color: #00AFB9;
+--accent1-color: #FDFCDC;
+--accent2-color: #F07167;
 }
-body{
-background-color: var(--primary-color);
+*{
+margin: 0;
 }
-h1, h2, a{
-font-family: Tektur;
+p{
+font-style: italic;
+font-weight: bold;
 }
 a{
 text-decoration: none;
 }
-p{
-font-style: italic;
+h1, h2{
+font-family: Tektur;
 }
 header{
-display: grid;
-grid-template-columns: 40% 1fr;
-border-bottom: 3px solid white;
+display: flex;
+justify-content: space-between;
 align-items: center;
-max-width: 100%;
+background-image: linear-gradient(to right,white,white,var(--primary-color),var(--primary-color),var(--primary-color))
 }
 ul{
 display: flex;
-flex-wrap: wrap;
 list-style: none;
-padding: 0;
-}
-ul li {
-text-align: center;
-margin-left: 2rem;
+margin-right: 5rem;
 }
 ul a{
-display: block;
-color: white;
-padding: 20px;
-font-weight: bolder;
+margin-right: .5rem;
+padding: 15px;
+border: 3px solid black;
 text-transform: uppercase;
-border: 2px solid white;
-border-radius: 10%;
-}
-.hero{
-background-image: url("../images/wwrbanner.jpg");
-background-repeat: no-repeat;
-background-size: cover;
-height: 800px;
-}
-.hero h1{
-text-align: center;
-color:white;
-padding: 30px;
-}
-article{
-margin: 7% 10% 0 10%;
-padding: 1rem;
-background-color: var(--secondary-color);
-width: 80%;
-font-size: 1.2rem;
-border-radius: 3%;
-}
-
-article img{
-float: right;
-width: 300px;
-height: 200px;
-border-radius: 50%  0 50% 50%;
-padding: 4%;
-}
-article p{
-margin-left: 2%;
-text-align: center;
-padding: 3%;
-}
-article h2{
-margin: 3rem 0 0 6rem;
-}
-section{
-margin-left: 10%;
-margin-right: 10%;
-}
-section img{
-border-radius: 10%;
-border: 3px solid var(--secondary-color);
-height: auto;
-}
-section h2{
+border-radius: .5rem;
 background-color: white;
 color: var(--primary-color);
-border-radius: 20%;
+font-weight: bolder;
+font-family: Tektur;
+}
+ul a:hover{
+background-image: linear-gradient(to right, var(--secondary-color),var(--accent2-color));
+color: white;
+border: 3px solid white;
+}
+.hero{
+display: grid;
+background: url(../images/wwrbanner.jpg) no-repeat;
+background-size: cover;
+height: 650px;
+margin: 5px;
+}
+h1{
 text-align: center;
+color: var(--accent2-color);
+font-size: 60px;
+text-shadow: 5px 5px 5px white;
 }
-#colbox{
+article{
+background-color: var(--accent1-color);
+height: 300px;
+margin: 15% 5% 0 5%;
+border-radius: 20px;
+padding: 5px;
+border: 2px solid black;
+}
+article img{
+width: 250px;
+margin-left: 1rem;
+float: right;
+border-radius: 50% 0 50% 50%;
+}
+section img{
+border: 1px solid black;
+padding: .1rem;
+}
+.crbox{
 display: flex;
+padding: 15px;
 }
-#colbox img{
-margin: 1rem;
-max-width: 19%;
+.crbox img{
+margin: 1rem 3rem 0 3rem;
+width: 350px;
+max-height: 300px;
 }
-figure img{
-width: 50%;
+.crbox1{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+}
+.crbox1 img{
+width: 200px;
+height: 120px;
+box-shadow: 0 0 15px var(--secondary-color);
+}
+h2{
+text-align: center;
+font-size: 40px;
+padding: 30px;
+color: var(--secondary-color);
+text-shadow: 4px 4px 4px var(--accent2-color);
 }
 figcaption{
-margin-left: 3rem;
-color: blue;
+text-align: center;
+font-style: italic;
+font-weight: bold;
 }
-/*##############################*/
 footer{
 display: flex;
-flex-direction: column;
-background-color: var(--accent1-color);
-height: 50px;
-font-weight: bold;
-font-family: Tektur;
+flex-direction: row; 
+justify-content: space-around;
 border-top: 3px solid black;
-border-bottom: 3px solid black;
+padding: 10px;
+background-color: var(--primary-color);
+margin-top: 1rem;
+box-shadow: 0 0 20px 0 var(--accent2-color);
 }
 footer p{
-width: 100%;
-text-align: center;
-margin-bottom: -0.5rem;
+font-family: Tektur;
+font-weight: bolder;
+align-content: center;
+color: white;
 }
 footer img{
-width: 2%;
-float: right;
-margin-top: -1rem;
-margin-right: .5rem;
+width: 30px;
+margin: .5rem 0 0 1rem;
+background-color: white;
+padding: 5px;
+border-radius: 5px;
+border: 2px solid black;
 }
-footer nav{
-margin-right: 2rem;
+footer img:hover{
+background-color: greenyellow;
+border: 2px solid white;   
 }
