@@ -1,0 +1,58 @@
+<! doctype html>
+<html>
+<head>
+<meta charset="utf8">
+<meta name="viewport" content="width=device-width,initial-scale=1;">
+<title>poll form</title>
+<meta name="author" content="Ugwu Chukwuebuka Martins">
+<meta name="description" content="poll form">
+<link href="styles/poll-form.css" rel="stylesheet"> 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+<h1>Ugwu M. Chukwuebuka</h1>
+</header>
+<main>
+<form>
+<fieldset>
+<legend>Contact Information</legend>
+<div class="form-item column">
+<label for="fullname">Full Name:</label>
+<input type="text" id="fullname" name="fullname">
+</div>
+<div class="form-item column">
+<label for="email">Email:</label>
+<input type="email" id="useremail" name="useremail">
+</div>
+</fieldset>
+<fieldset>
+<legend>Questions</legend>
+<div class="column">
+<label for="browser">What is your Favourite Browser?</label>
+<select id="browser" name="browser">
+<option value="chrome">Chrome</option>
+<option value="msedge">MsEdge</option>
+<option value="firefox">Firefox</option>
+</select>
+</div>
+<div class="column">
+<label for="pet">Do you have a household</label>
+<input type="checkbox" id="pet" name="pet">
+</div>
+<div>
+<label for="feedback">List the places you have lived:</label>
+<textarea id="feedback" name="feedback" rows="5" placeholder="town"></textarea>
+</div>
+<div>
+<label for="pet">Please subscribe me to the monthly newsletter</label>
+<input type="checkbox" id="pet" name="pet">
+</div>
+</fieldset>
+<button type="submit">Submit Poll</button>
+</form>
+</main>
+<footer></footer>
+</body>
