@@ -9,88 +9,100 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Tektur:wght@400..900&display=swap" rel="stylesheet">
-<!--##########################################################################################################-->
 <link rel="stylesheet" href="styles/rafting.css">
 </head>
 <body>
 <header>
-<img src="images/wwrlogo.jpg" alt="logo" width="94">
+<img src="images/ht.jpg" alt="HighTemp logo">   
 <nav>
-<a href="index.html">home</a>
-<a href="about.html">about us</a>
-<a href="trips.html">trips</a>
-<a href="contact.html">contact us</a>
+<ul>
+<li><a href="index.html">home</a></li>
+<li><a href="about.html">about us</a></li>
+<li><a href="trips.html">trips</a></li>
+<li><a href="contact.html">contact us</a></li>
+</ul>
 </nav>
 </header>
 <main>
-<div class="info">
-<p>Address: HT City</p>
-<p>Phone Number: 888-121-8888</p>
-<p>Email: <a href="">htmp@hightemp.wr</a></p>
-</div>
-<iframe src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d57683964.19604157!2d-107.84530562786115!3d28.062664126252916!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m5!1s0x54eab584e432360b%3A0x1c3bb99243deb742!2sAmerica!3m2!1d38.794595199999996!2d-106.5348379!4m3!3m2!1d52.153977!2d-37.181241799999995!5e0!3m2!1sen!2sng!4v1743427407403!5m2!1sen!2sng" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<h1>Get In Touch Today</h1>
+<div class="flex-info">
 <section>
-<h2> HighTemp Employee</h2>
-<div class="crbox1">
+<h2>Contact Us</h2>
+<p>We wants questions and feedback- and we are always happy to help!<br>
+Here are some ways to contacts us 
+</p>
+<div id="cont-box">
+<p>Email:</p>
+<h3>contact@hightemp.wwr</h3>
+</div>
+<div id="cont-box">
+<p>Phone:</p>`
+<h3>--- --- --- ---</h3>
+</div>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d50257.386250354175!2d-120.62803906186073!3d38.06836331539387!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809095c2047467ad%3A0x27371c33f7ec3cb9!2sAngels%20Camp%2C%20CA%2095222!5e0!3m2!1sen!2sus!4v1743644625942!5m2!1sen!2sus" width="500" height="470" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</section>
+<section>
+<h2>HT Employees</h2>
+<div class="emp-box">
 <figure>
-<img src="images/emp2.jpg" alt="emp2">
+<img src="images/emp1.jpg" alt="Employee">
+</figure>
 <figcaption>Rafting Staff</figcaption>
-</figure>
 <figure>
-<img src="images/emp3.jpg" alt="emp3">
-<figcaption>Outpost Staff</figcaption>
+<img src="images/emp2.jpg" alt="Employee1">
 </figure>
-<figure>
-<img src="images/emp.jpg" alt="emp">
-<figcaption>Bus Driver</figcaption>
-</figure>
+<figcaption>Assist's Trip</figcaption>
 </div>
 </section>
+<section>
+<h2>Message Us</h2>
 <form>
 <fieldset>
 <legend>Your Information</legend>
-<div>
-<label for="name"></label>
-<input type="text" id="name" name="name" placeholder="Name" required>
+<div class="cont-quest">
+<label for="name">Full Name</label><br>
+<input type="text" name="name" id="name" placeholder="Your name" required>
+</div>
+<div class="cont-quest">
+<label for="email">Email</label><br>
+<input type="email" name="email" id="email" placeholder="Your email address" required>
+</div>
+</fieldset>
+<fieldset class="quest">
+<legend>Question / Feedback</legend>
+<div class="grid-quest">
+<label for="general-inquiry">General Inquiry</label>
+<input type="radio" id="general-inquiry" name="general-inquiry">
+</div>
+<div class="grid-quest">
+<label for="reservation-question">Reservation Question</label>
+<input type="radio" id="reservation-question" name="reservation-question">
+</div>
+<div class="grid-quest">
+<label for="website-suggestion">Website Suggestion</label>
+<input type="radio" id="website-suggestion" name="website-suggestion">
 </div>
 <div>
-<label for="email"></label>
-<input type="email" id="email" name="email" placeholder="Email" required>
+<textarea name="message" id="message" placeholder="input your message/ feedback here." rows="10" cols="40"></textarea>
 </div>
-<div>
-<label for="General-Inquiry">General Inquiry</label>
-<input type="radio" id="General-Inquiry" name="General-Inquiry">
-<label for="Reservation-Question">Reservation Question</label>
-<input type="radio" id="Reservation-Question" name="Reservation-Question">
-<label for="Website-Suggestion">Website Suggestion</label>
-<input type="radio" id="Website-Suggestion" name="Website-Suggestion">
-</div>
-<div>
-<label for="message"></label>
-<textarea name="massage" id="message" placeholder="Enter Your Message" rows="5" cols="20"></textarea>
-</div>
+</fieldset>
 <div>
 <label for="subscribe">Please subscribe me to the monthly newsletter</label>
 <input type="checkbox" name="subscribe" id="subscribe">
 </div>
 <div>
-<input type="submit" name="submit" value="submit">
+<button type="submit" class="sub-btn">Submit</button>
 </div>
-</fieldset>
 </form>
+</section>
+</div>
 </main>
 <footer>
-<p>&copy;2025 | HighTemp Water Rafting</p>
-<nav>
-<a href="http://facebook.com">
-<img src="images/fb.png" alt="facebook">
-</a>
-<a href="http://instagram.com">
-<img src="images/inst.png" alt="Instagram">
-</a>
-<a href="http://x.com">
-<img src="images/x.png" alt="x.com">
-</a>
+<p>Copyright © 2025 | HighTemp | Ugwu Chukwuebuka M. </p>
+<nav class="social-links">
+<a href=""><img src="images/fb.png" alt="facebook"></a>
+<a href=""><img src="images/inst.png" alt="Instagram"></a>
+<a href=""><img src="images/x.png" alt="x"></a>
 </nav>
 </footer>
 </body>
