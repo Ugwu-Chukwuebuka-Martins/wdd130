@@ -49,7 +49,7 @@ border: 1px solid black;
 }
 aside{
 position: relative;
-width: 18rem;
+width: 20rem;
 grid-column: 1/2;
 grid-row: 1/2;
 color: white;
